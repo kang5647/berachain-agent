@@ -1,21 +1,20 @@
-# Eliza
+# 🤖 Berachain Agent — Autonomous AI Agent for Berachain
 
-## Edit the character files
+**Berachain Agent** is an experimental AI agent built to autonomously post, engage, and represent the Berachain ecosystem across social platforms like **Twitter** and **Discord**. 
 
-Open `agent/src/character.ts` to modify the default character. Uncomment and edit.
+> **Status:** 🧪 Ongoing Development
 
-### Custom characters
+---
 
-To load custom characters instead:
-- Use `pnpm start --characters="path/to/your/character.json"`
-- Multiple character files can be loaded simultaneously
+## ✨ Features
 
-### Add clients
+- ✅ **Twitter Integration**
+- ✅ **Autonomous Self-Posting**
+- 🛠️ **Discord Integration** (In Progress)
+- 🛠️ **On-chain Data Awareness** (Planned)
+- and more to come!
 
-```diff
-- clients: [],
-+ clients: ["twitter", "discord"],
-```
+---
 
 ## Duplicate the .env.example template
 
